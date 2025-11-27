@@ -1,0 +1,58 @@
+checked since 09/2025,researcher,category,country,funder,data_type,findable,tabular,data_downloadable?,>=3 years data,dates_covered,neuro_specific,age,gender,disability,ethnicity,career_stage,summary_funding,per_group_funding,grant_duration,year_of_award,dei_eo_page,parental_leave,"english_data (e.g. if data_type = report, is the report in English?)",report_all_applicants,report_winners,total_score,osf_file,notes
+Y,PM,EU member,Austria,FWF,tabular,1,1,1,1,1995-2025,0,0,0,0,0,1,0,1,1,1,1,1,1,0,1,12,/Austria - FWF/PI-projects....csv + annual report pdf,
+Y,PM,EU member,Austria,FWF,annual_report,1,0,1,0,2023-2024,0,0,1,0,0,1,1,0,0,0,1,1,1,1,1,10,,
+Y,GL/NC,EU member,Belgium,FWO,annual_report,1,0,1,1,2017-2024,0,0,1,0,0,1,1,0,0,1,1,1,1,1,1,12,/Belgium - FWO/FWO annual reports/Fwo-annual-<YEAR>_spreads.pdf,
+Y,GL/NC/AL,EU member,Belgium,FNRS,tabular,1,1,1,1,2015-2023,1,1,1,0,0,1,1,0,0,1,1,1,0,1,1,14,/Belgium - FNRS/FRS-FNRS - Rapport état égalité genre <YEAR>.pdf,
+Y,NC,EU member,Bulgaria,BNSF,NO DATA (annual reports just list number of applications),0,,,,,,,,,,,,,,,,,0,,,0,,we could not assess due to language barrier
+Y,NC,EU member,Croatia,HRZZ,annual_report,1,0,1,1,2017-2023,0,0,0,0,0,1,1,0,0,1,0,0,1,1,1,9,/Croatia - HRZZ,we could not assess due to language barrier
+Y,PM,EU member,Republic of Cyprus,RIF,tabular,1,1,1,1,2016-2024,0,0,0,0,0,0,0,1,1,1,1,0,1,0,1,10,/Cyrpus - RIF/Χρηματοδοτούμενα-Έργα-2016-2024-Jan-2025.xlsx,
+Y,PM,EU member,Republic of Cyprus,RIF,annual_report,1,0,1,1,2011-2024,0,0,0,0,0,0,1,1,0,1,1,0,0,1,1,9,/Cyprus - RIF/Annual_reports,
+Y,NC,EU member,Czech Republic,GACR,annual_report,1,0,1,1,2016-2022,0,0,1,0,0,0,1,0,0,1,0,1,1,1,1,10,/Czech Republic - GACR - GACR_Annual_Report_<YEAR>.pdf,
+Y,NC,EU member,Denmark,Lundbeck Foundation,portal,1,0,0,1,2001-2025,1,0,0,0,0,1,0,1,0,1,0,0,1,0,1,8,,
+Y,NC,EU member,Denmark,DFF,annual_report,1,0,1,1,2016-2024,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,12,/Denmark - DFF,
+Y,NC,EU member,Denmark,DFF,portal,1,0,0,1,2014-2025,1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,8,,
+Y,NC,EU member,Denmark,Novo Nordisk Foundation,annual_report,1,0,1,1,2019-2023,0,0,1,0,0,1,1,0,0,1,1,0,1,0,1,10,/Denmark - Novo Nordisk Foundation,
+Y,NC,EU member,Denmark,Novo Nordisk Foundation,portal,1,0,0,1,1963-2026,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,7,,
+Y,AL,EU member,Estonia,ETAG,tabular,1,1,1,0,2023-2024,0,0,1,0,0,1,1,1,0,1,1,0,1,1,1,12,/Estonia - ETAG/Tables_summary-of-decisions-of-2024-call.xlsx,
+Y,AL,EU member,Finland,Finnish Brain Foundation,list,1,0,0,1,2010-2024,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,7,https://www.aivosaatio.fi/aivosaation-myontamat-apurahat/ (+ Finnish-only reports in OSF: /Finland - FBF/Aivosäätiön-toimintakertomus-ja-tilinpäätös-2021.pdf),we could not assess annual reports due to language barrier; list on website was google translated
+Y,AL,EU member,France,ANR,annual_report,1,0,1,1,2015-2024,0,1,1,0,0,0,1,1,0,1,1,0,0,0,1,10,/France - ANR/ANR-Femmes-Hommes-AAPG-2015-2024.pdf,
+Y,AL,EU member,France,ANR,tabular,1,1,1,1,2022-2024,0,0,1,0,0,0,1,0,0,1,1,0,0,0,1,9,/France - ANR/ genre-dans-l-aapg-2022-2024.csv (also here: https://dataanr.opendatasoft.com/explore/dataset/genre-dans-l-aapg-2022-2023/table/?disjunctive.edition&disjunctive.instrument_financement),
+Y,AL,EU member,France,CNRS,report,1,0,0,1,2017-2021,0,0,1,0,0,1,1,1,0,0,0,0,1,0,1,8,https://www.hceres.fr/sites/default/files/media/downloads/report-cnrs-2023.pdf,"only one report available,but it's not specific for the national concours"
+Y,PM,EU member,Germany,DFG,annual_report,1,0,1,1,2013-2024,0,0,1,0,0,1,1,0,0,1,1,1,0,1,1,11,/Germany - DFG/chancengleichheits_monitoring_<YEAR>.pdf,
+Y,PM,EU member,Germany,DFG,portal,1,0,0,1,1999-2025,1,0,0,0,0,1,0,0,1,1,1,1,0,0,1,9,,
+Y,DP,EU member,Greece,GSRI (General Secretariat for Research and Innovation),NO DATA (only about expenditure for research and research personnel),0,,,,,,,,,,,,,,,,,,,,0,,
+Y,AL,EU member,Hungary,OTKA,list,1,0,0,,no dates,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,4,"N/A, list online (https://www.nefmi.gov.hu/research/national_projects/otka/index_name.html)",we could not assess due to language barrier
+Y,DP,EU member,Ireland,Taighde Éireann – Research Ireland (from 2024 puts together Science Foundation Ireland & Irish Research Council),,0,,,,,,,,,,,,,,,,,,,,0,,
+Y,PM,EU member,Italy,PRIN,list,1,0,1,1,1999-2022,1,0,0,0,0,1,0,1,1,1,0,1,1,0,1,11,"N/A, list online (see https://prin.mur.gov.it/)",
+Y ,NC,EU member,Latvia,Latvian Council of Science,NO DATA,0,,,,,,,,,,,,,,,,,,,,0,,
+Y ,NC,EU member,Lithuania,Research Council of Lithuania,annual_report,1,0,1,1,2011-2023,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,8,/Lithuania - LRV,
+Y,PM,EU member,Luxembourg,Luxembourg National Research Fund,report,1,0,1,1,2020-2022,0,0,1,0,0,0,0,0,0,1,1,0,1,1,1,9,/Luxembourg - FNR,Report specific on gender equality
+Y,PM,EU member,Luxembourg,Luxembourg National Research Fund,list,1,0,1,0,2023-2024,0,0,1,0,0,1,0,1,0,1,1,0,1,0,1,9,/Luxembourg - FNR,
+Y,PM,EU member,Malta,Xjenza Malta,One annual report leads to unavailable page,0,,0,0,2022,,,,,,,,,,,1,,1,,,2,https://xjenzamalta.mt/media/publications/,One annual report leads to unavailable page
+Y,DP,EU member,Netherlands,NWO,annual_report/list,1,0,1,1,2018-2024,1,0,1,0,0,1,1,0,1,1,1,1,1,1,1,14,/Netherlands - NWO,
+Y,DP,EU member,Netherlands,NWO,portal,1,0,0,1,1993-2026,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,8,Projectendatabank | NWO,
+Y,NC,EU member,Poland,NCN,portal,1,0,0,1,2011-2024,1,0,1,0,0,1,0,1,1,1,1,0,1,0,1,11,,we could not assess due to language barrier
+Y,NC,EU member,Poland,NCN,annual_report,1,0,1,1,2012-2021,0,0,1,0,0,1,1,1,0,1,1,0,1,1,1,12,/Poland - NCN,
+Y,PM,EU member,Portugal,FCT,tabular,1,1,1,1,2018-2024,0,0,1,0,0,1,1,0,0,1,0,1,0,0,1,10,/Portugal - FCT/Phd_scholarships/BD2023-xx.pdf,
+Y,PM,EU member,Romania,UEFISCDI,annual_report,1,0,1,1,2016-2024,0,1,0,0,0,1,1,0,0,0,1,0,0,1,1,9,/Romania - UEFISCDI/annual_reports,we could not assess due to language barrier
+Y,PM,EU member,Romania,UEFISCDI,report,1,0,1,1,2015-2021,0,0,1,0,0,1,1,0,0,0,1,0,1,0,1,9,/Romania - UEFISCDI/gender_report,
+Y,DP,EU member,Slovakia,APVV/SRDA,annual_report,1,0,1,1,"2012, 2014-2024",0,0,0,0,0,0,1,0,0,1,0,1,1,0,1,8,/Slovakia - APVV/apvv-vs-<YEAR>-en.pdf,
+Y,DP,EU member,Slovenia,Slovenian Research Agency: ARIS,annual_report,1,0,1,1,2011-2024,,,,,,,,,,,,,,,,3,,ARIS - Reports and Publications
+Y,PM,EU member,Spain,Agencia Estatal de Investigación (AEI),list,1,0,1,1,2008-2024,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,11,/Spain - AEI/xxx/xxx.pdf,https://www.aei.gob.es/en/awarded-grants/informes-convocatorias-ayudas
+Y,PM,EU member,Spain,Agencia Estatal de Investigación (AEI),annual_report,1,0,1,1,2018-2024,0,1,1,0,0,1,1,1,0,1,1,1,0,1,1,13,,
+Y,DP,EU member,Sweden,VR,tabular,1,1,1,1,2008-2025,1,0,1,0,0,1,1,1,1,1,1,1,1,0,1,15,/Sweden - VR/Sweden.csv,
+Y,DP,EU member,Sweden,VR,report,1,0,1,1,2019-2024,1,0,1,0,0,1,1,1,0,1,1,1,1,1,1,14,,
+Y,NC,Schengen area,Iceland,IRF,annual_report,1,0,1,1,2011-2023,0,0,1,0,0,1,1,1,0,1,0,0,0,1,1,10,/Iceland - IRF,Icelandic Research Fund
+Y,NC,Schengen area,Iceland,IRF,report,1,0,1,1,2011-2022,0,0,1,0,0,1,1,0,0,1,0,0,1,1,1,10,/Iceland - IRF/Impact Evaluation of the Icelandic Research Fund complete.pdf,
+Y,PM,Schengen area,Liechtenstein,no national funding,,0,,,,,,,,,,,,,,,,,,,,0,,"Liechtenstein research funds are primarily managed through the University of Liechtenstein and its Research Fund, which supports research projects of scientists and promotes the development of young researchers. Additionally, Liechtenstein participates in international funding schemes, including those offered by the Swiss National Science Foundation (SNSF)."
+Y,NC,Schengen area,Norway,Research Council of Norway (RCN),portal,1,0,0,1,2004-2025,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,9,N/A: https://prosjektbanken.forskningsradet.no/en,Prosjektbanken
+Y,NC,Other,UK,UKRI (BBSRC/MRC),portal,1,0,1,1,2006-2025,1,0,0,0,0,0,0,1,1,1,1,1,1,0,1,11,,
+Y,NC,Other,UK,UKRI (BBSRC/MRC),tabular,1,1,1,1,2014-2021,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,16,"/UK - Medical Research Council/.xlsx files split by career stage (e.g., UKRI-271022-Fellows-–-application-and-award-amounts-and-award-rate-by-value-2014-15-to-2020-21)",
+Y,NC,Other,UK,UKRI (BBSRC/MRC),portal/tabular,1,1,1,1,2016-2024,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,16,/UK - UKRI/BBSRC or /MRC. Separate folders by DEI info,
+Y,GL,Other,UK,The Royal Society,annual_report,1,0,1,1,2015-2023,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,14,"/UK - The Royal Society/.pdf files per year, various names",
+Y,DP,Other,UK,The Wellcome Trust,tabular,1,1,1,1,2022-2023; 2005-2025,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,16,/UK - The Wellcome Trust/funding-overview-2022-23.xlsx & /Wellcome-grants-awarded-1-October-2005-to-1-September-2025.xlsx,"see comment in europe tab, query re: data"
+Y,DP,Other,UK,The Wellcome Trust,annual_report,1,0,1,1,2006-2024; 2018-2019 & 2019-2020,0,1,1,1,1,0,1,0,0,1,1,1,1,0,1,13,/UK - The Wellcome Trust/Report_Wellcome_Grant_Funding_data_2019-20.pdf & /grant-funding-data-2018-2019.pdf & /Annual_report_financial_statements/,
+Y,PM,EU-wide,EU,MSC,list/portal,1,0,0,1,2014-2024,0,0,0,0,0,0,0,1,1,1,0,1,1,0,1,8,"N/A, list online (see here)",
+,DP,Schengen area,Switzerland,SNSF,tabular,1,1,1,1,2005-2023,0,1,1,0,0,0,0,0,0,1,1,1,1,1,1,12,/Switzerland - SNSF/Demographics_SNSF_2005-2023.xlsx,
+,DP,Schengen area,Switzerland,SNSF,tabular,1,1,1,1,2001-2024,1,0,0,0,0,0,0,1,1,1,1,1,1,0,1,12,/Switzerland - SNSF/GrantSearchResults_Neuroscience.csv,
+Y,PM,EU-wide,EU,ERC,portal,1,0,1,1,2007-2025,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,16,"/ EU - ERC / ERC_new portal, list online (see https://dashboard.tech.ec.europa.eu/qs_digit_dashboard_mt/public/sense/app/c140622a-87e0-412e-8b29-9b5ddd857e13/sheet/61a0bd1d-cd6d-4ac8-8b55-80d8661e44c0/state/analysis)",
