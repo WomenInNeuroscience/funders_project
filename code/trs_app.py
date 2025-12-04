@@ -84,7 +84,7 @@ def update_score(data_av, equity, fund_trans):
         emoji = "🥉"
         color = "peru"
     else:
-        rating = "No Rating"
+        rating = "No"
         emoji = "⚪"
         color = "lightgrey"
 
@@ -102,10 +102,27 @@ def update_score(data_av, equity, fund_trans):
 
     # Stacked chart
     fig = go.Figure()
+    fig.add_trace(go.Bar(
+        x=["Transparency Score"], y=[len(data_av)],
+        name='Data Availability',
+        marker_color=color  # use rating color
+    ))
+    fig.add_trace(go.Bar(
+        x=["Transparency Score"], y=[len(equity)],
+        name='Equity Dimensions',
+        marker_color=color
+    ))
+    fig.add_trace(go.Bar(
+        x=["Transparency Score"], y=[len(fund_trans)],
+        name='Funding Transparency',
+        marker_color=color
+    ))
+    """
+    fig = go.Figure()
     fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(data_av)], name='Data Availability', marker_color='lightgreen'))
     fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(equity)], name='Equity Dimensions', marker_color='lightskyblue'))
     fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(fund_trans)], name='Funding Transparency', marker_color='orchid'))
-
+    """
     fig.update_layout(
         barmode='stack',
         height=400,
