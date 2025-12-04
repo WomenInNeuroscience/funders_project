@@ -34,7 +34,7 @@ criteria_categories = {
 
 # --- Layout ---
 app.layout = html.Div(style={'fontFamily': 'Arial', 'padding': '30px'}, children=[
-    html.H2("WIN Repo: Transparency Assessment Tool", style={'textAlign': 'center'}),
+    html.H2("WIN Repo: Transparency Reporting Scale Calculator", style={'textAlign': 'center'}),
 
     html.Div([
         html.Div([
@@ -102,27 +102,10 @@ def update_score(data_av, equity, fund_trans):
 
     # Stacked chart
     fig = go.Figure()
-    fig.add_trace(go.Bar(
-        x=["Transparency Score"], y=[len(data_av)],
-        name='Data Availability',
-        marker_color=color  # use rating color
-    ))
-    fig.add_trace(go.Bar(
-        x=["Transparency Score"], y=[len(equity)],
-        name='Equity Dimensions',
-        marker_color=color
-    ))
-    fig.add_trace(go.Bar(
-        x=["Transparency Score"], y=[len(fund_trans)],
-        name='Funding Transparency',
-        marker_color=color
-    ))
-    """
-    fig = go.Figure()
     fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(data_av)], name='Data Availability', marker_color='lightgreen'))
     fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(equity)], name='Equity Dimensions', marker_color='lightskyblue'))
     fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(fund_trans)], name='Funding Transparency', marker_color='orchid'))
-    """
+
     fig.update_layout(
         barmode='stack',
         height=400,
