@@ -9,26 +9,30 @@ app.title = "WIN Repo: Transparency Reporting Scale Calculator"
 
 # --- Define Criteria Labels and Categories ---
 criteria_categories = {
-    "Data Availability": {
-        'findable': "Findable (publicly available data)",
-        'downloadable': "Downloadable (improves prosperity and enables analysis)",
-        'tabular': "Tabular format (spreadsheet/table)",
-        'all_applicants': "All applicants’ reported (not just awardees)",
-        'longitudinal': "Longitudinal (3+ years)"
+    "Accessibility & FAIR": {
+        'findable': "Findable",
+        'data_downloadable': "Downloadable",
+        'tabular': "Tabular format",
+        'english_data': "English"
     },
-    "Equity Dimensions": {
-        'gender': "Gender reported",
-        'age': "Age or career Stage",
-        'dei_page': "DEI policy page",
-        'parental_leave': "Parental leave policy available"
+    "Gender & demographics": {
+        'gender': "Gender",
+        'age_or_career_stage': "Age or career stage",
+        'parental_leave': "Parental leave",
+        'dei_eo_page': "DEI page"
     },
-    "Funding Transparency": {
-        'summary_funding': "Summary funding amounts",
-        'per_group_funding': "Per-awardee funding amounts",
-        'year_of_award': "Year of award reported",
+    "Temporal": {
+        'year_of_award': "Year of award",
         'grant_duration': "Grant duration",
-        'english': "Provided in English",
-        'neuro_specific': "Neuroscience-specific funding"
+        '>=3 years data': "Longitudinal"
+    },
+    "Funding transparency": {
+        'summary_funding': "Summary funding",
+        'per_group_funding': "Individual funding",
+        'report_all_applicants': "All applicants (not just winners)"
+    },
+    "Domain-specific": {
+        'neuro_specific': "Neuro-specific"
     }
 }
 
@@ -62,36 +66,38 @@ app.layout = html.Div(style={'fontFamily': 'Arial', 'padding': '30px'}, children
     [Output('score-output', 'children'),
      Output('to-improve', 'children'),
      Output('score-visual', 'figure')],
-    [Input('data_availability_checklist', 'value'),
-     Input('equity_dimensions_checklist', 'value'),
-     Input('funding_transparency_checklist', 'value')]
+    [Input('accessibility_&_fair_checklist', 'value'),
+     Input('gender_&_demographics_checklist', 'value'),
+     Input('temporal_checklist', 'value'),
+     Input('funding_transparency_checklist', 'value'),
+     Input('domain-specific_checklist', 'value')]
 )
-def update_score(data_av, equity, fund_trans):
+def update_score(access, gender_demo, temporal, fund_trans, domain):
     # Calculate score
-    score = len(data_av) + len(equity) + len(fund_trans)
+    score = len(access) + len(gender_demo) + len(temporal) + len(fund_trans) + len(domain)
 
     # Determine rating
-    if score >= 13:
+    if 13 <= score <= 15:
         rating = "Gold"
         emoji = "🥇"
         color = "gold"
-    elif score >= 9:
+    elif 9 <= score <= 12:
         rating = "Silver"
         emoji = "🥈"
         color = "silver"
-    elif score >= 1:
+    elif 1 <= score <= 8:
         rating = "Bronze"
         emoji = "🥉"
         color = "peru"
     else:
-        rating = "No"
+        rating = "No rating"
         emoji = "⚪"
         color = "lightgrey"
 
     summary_text = f"Total Score: {score}/15 → {emoji} {rating} Rating"
 
     # Identify missing items
-    checked = set(data_av + equity + fund_trans)
+    checked = set(access + gender_demo + temporal + fund_trans + domain)
     missing_items = []
     for category, items in criteria_categories.items():
         for key, label in items.items():
@@ -102,9 +108,20 @@ def update_score(data_av, equity, fund_trans):
 
     # Stacked chart
     fig = go.Figure()
-    fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(data_av)], name='Data Availability', marker_color='lightgreen'))
-    fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(equity)], name='Equity Dimensions', marker_color='lightskyblue'))
-    fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(fund_trans)], name='Funding Transparency', marker_color='orchid'))
+    fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(access)], 
+                        name='Accessibility & FAIR', marker_color='skyblue'))
+
+    fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(gender_demo)], 
+                        name='Gender & demographics', marker_color='lightgreen'))
+
+    fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(temporal)], 
+                        name='Temporal', marker_color='orange'))
+
+    fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(fund_trans)], 
+                        name='Funding transparency', marker_color='salmon'))
+
+    fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(domain)], 
+                        name='Domain-specific', marker_color='violet'))
 
     fig.update_layout(
         barmode='stack',
