@@ -1,0 +1,60 @@
+checked since 09/2025,researcher,category,country,funder,label,data_type,dates_covered,findable,data_downloadable,tabular,english_data,gender,age_or_career_stage,parental_leave,dei_eo_page,year_of_award,grant_duration,>=3 years data,summary_funding,per_group_funding,report_all_applicants,neuro_specific,total_score,age,career_stage,disability,ethnicity,osf_file,notes
+Y,PM,EU member,Austria,FWF,AT - Austrian Science Fund (FWF),tabular,1995-2025,1,1,1,1,0,1,1,1,1,1,1,0,1,0,0,11,0,1,0,0,/Austria - FWF/PI-projects....csv + annual report pdf,
+Y,PM,EU member,Austria,FWF,AT - Austrian Science Fund (FWF),annual_report,2023-2024,1,1,0,1,1,1,1,1,0,0,0,1,0,1,0,9,0,1,0,0,,
+Y,GL/NC,EU member,Belgium,FWO,BE - Research Foundation–Flanders (FWO),annual_report,2006-2024,1,1,0,1,1,1,1,1,1,0,1,1,0,1,0,11,0,1,0,0,/Belgium - FWO/FWO annual reports/Fwo-annual-<YEAR>_spreads.pdf,
+Y,GL/NC/AL,EU member,Belgium,FNRS,BE - National Fund for Scientific Research (FNRS),tabular,2015-2023,1,1,1,0,1,1,1,1,1,0,1,1,0,1,1,12,1,1,0,0,/Belgium - FNRS/FRS-FNRS - Rapport état égalité genre <YEAR>.pdf,
+Y,NC,EU member,Bulgaria,BNSF,BG - Bulgarian National Science Fund (BNSF),,,0,,,0,,,,,,,,,,,,0,,,,,,
+Y,NC,EU member,Croatia,HRZZ,HR - Croatian Science Foundation (HRZZ),annual_report,2017-2023,1,1,0,1,0,1,0,0,1,0,1,1,0,1,0,8,0,1,0,0,/Croatia - HRZZ,
+Y,PM,EU member,Republic of Cyprus,RIF,CY - Research and Innovation Foundation (RIF),tabular,2016-2024,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,9,0,0,0,0,/Cyrpus - RIF/Χρηματοδοτούμενα-Έργα-2016-2024-Jan-2025.xlsx,
+Y,PM,EU member,Republic of Cyprus,RIF,CY - Research and Innovation Foundation (RIF),annual_report,2011-2024,1,1,0,0,0,0,0,1,1,0,1,1,1,1,0,8,0,0,0,0,/Cyprus - RIF/Annual_reports,
+Y,NC,EU member,Czech Republic,GACR,CZ - Czech Science Foundation (GACR),annual_report,2016-2022,1,1,0,1,1,0,1,0,1,0,1,1,0,1,0,9,0,0,0,0,/Czech Republic - GACR - GACR_Annual_Report_<YEAR>.pdf,
+Y,NC,EU member,Denmark,Lundbeck Foundation,DK - Lundbeck Foundation,portal,2001-2025,1,0,0,1,0,1,0,0,1,0,1,0,1,0,1,7,0,1,0,0,,
+Y,NC,EU member,Denmark,DFF,DK - Independent Research Fund Denmark (DFF),annual_report,2016-2024,1,1,0,1,1,1,0,1,1,0,1,1,0,1,0,10,1,1,0,0,/Denmark - DFF,
+Y,NC,EU member,Denmark,DFF,DK - Independent Research Fund Denmark (DFF),portal,2014-2025,1,0,0,1,0,0,0,1,1,0,1,0,1,0,1,7,0,0,0,0,,
+Y,NC,EU member,Denmark,Novo Nordisk Foundation,DK - Novo Nordisk Foundation (NNF),annual_report,2019-2023,1,1,0,1,1,1,0,1,1,0,1,1,0,0,0,9,0,1,0,0,/Denmark - Novo Nordisk Foundation,
+Y,NC,EU member,Denmark,Novo Nordisk Foundation,DK - Novo Nordisk Foundation (NNF),portal,1963-2025,1,0,0,1,0,0,0,1,1,0,1,0,1,0,0,6,0,0,0,0,,
+Y,AL,EU member,Estonia,ETAG,EE - Estonian Research Council (ETAg),tabular,2023-2024,1,1,1,1,1,1,0,1,1,0,0,1,1,1,0,11,0,1,0,0,/Estonia - ETAG/Tables_summary-of-decisions-of-2024-call.xlsx,
+Y,AL,EU member,Finland,Finnish Brain Foundation,FI - Finnish Brain Foundation,list,2010-2024,1,0,0,0,0,0,0,0,1,0,1,1,1,0,1,6,0,0,0,0,https://www.aivosaatio.fi/aivosaation-myontamat-apurahat/ (+ Finnish-only reports in OSF: /Finland - FBF/Aivosäätiön-toimintakertomus-ja-tilinpäätös-2021.pdf),we could not assess annual reports due to language barrier; list on website was google translated
+Y,AL,EU member,France,ANR,FR - French National Research Agency (ANR),annual_report,2015-2024,1,1,0,0,1,1,0,1,1,0,1,1,1,0,0,9,1,0,0,0,/France - ANR/ANR-Femmes-Hommes-AAPG-2015-2024.pdf,
+Y,AL,EU member,France,ANR,FR - French National Research Agency (ANR),tabular,2022-2024,1,1,1,0,1,0,0,1,1,0,1,1,0,0,0,8,0,0,0,0,/France - ANR/ genre-dans-l-aapg-2022-2024.csv (also here: https://dataanr.opendatasoft.com/explore/dataset/genre-dans-l-aapg-2022-2023/table/?disjunctive.edition&disjunctive.instrument_financement),
+Y,AL,EU member,France,CNRS,FR - French National Centre for Scientific Research (CNRS),report,2017-2021,1,0,0,1,1,1,0,0,0,0,1,1,1,0,0,7,0,1,0,0,https://www.hceres.fr/sites/default/files/media/downloads/report-cnrs-2023.pdf,"only one report available,but it's not specific for the national concours"
+Y,PM,EU member,Germany,DFG,DE - German Research Foundation (DFG),annual_report,2013-2024,1,1,0,0,1,1,1,1,1,0,1,1,0,1,0,10,0,1,0,0,/Germany - DFG/chancengleichheits_monitoring_<YEAR>.pdf,
+Y,PM,EU member,Germany,DFG,DE - German Research Foundation (DFG),portal,1999-2025,1,0,0,0,0,1,1,1,1,1,1,0,0,0,1,8,0,1,0,0,,
+Y,DP,EU member,Greece,GSRI (General Secretariat for Research and Innovation),GR - General Secretariat for Research and Innovation (GSRI),,,0,,,,,,,,,,,,,,,0,,,,,,
+Y,AL,EU member,Hungary,OTKA,HU - Hungarian Scientific Research Fund (OTKA),list,,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,3,0,0,0,0,"N/A, list online (https://www.nefmi.gov.hu/research/national_projects/otka/index_name.html)",
+Y,DP,EU member,Ireland,Taighde Éireann – Research Ireland,IE - Research Ireland,,2013-2020,1,1,0,1,0,1,1,1,1,0,1,1,0,0,0,9,0,1,0,0,/Ireland - IRC,
+Y,PM,EU member,Italy,Ministry of University and Research (MUR),IT - Ministry of University and Research (MUR),list,1999-2022,1,1,0,1,0,1,1,0,1,1,1,0,1,0,1,10,0,1,0,0,"N/A, list online (see https://prin.mur.gov.it/)",
+Y ,NC,EU member,Latvia,Latvian Council of Science,LV - Latvian Council of Science (LZP),,,0,,,,,,,,,,,,,,,0,,,,,,
+Y ,NC,EU member,Lithuania,Research Council of Lithuania,LT - Research Council of Lithuania (LMT),annual_report,2011-2023,1,1,0,1,0,0,0,0,1,0,1,1,0,1,0,7,0,0,0,0,/Lithuania - LRV,
+Y,PM,EU member,Luxembourg,Luxembourg National Research Fund,LU - Luxembourg National Research Fund (FNR),report,2020-2022,1,1,0,1,1,0,0,1,1,0,1,0,0,1,0,8,0,0,0,0,/Luxembourg - FNR,Report specific on gender equality
+Y,PM,EU member,Luxembourg,Luxembourg National Research Fund,LU - Luxembourg National Research Fund (FNR),list,2023-2024,1,1,0,1,1,1,0,1,1,0,0,0,1,0,0,8,0,1,0,0,/Luxembourg - FNR,
+Y,PM,EU member,Malta,Xjenza Malta,MT - Xjenza Malta (MCST),,2022,0,0,,1,,,,1,,,0,,,,,2,,,,,https://xjenzamalta.mt/media/publications/,One annual report leads to unavailable page
+Y,DP,EU member,Netherlands,NWO,NL - Dutch Research Council (NWO),annual_report,2018-2024,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,13,0,1,0,0,/Netherlands - NWO,
+Y,DP,EU member,Netherlands,NWO,NL - Dutch Research Council (NWO),portal,1993-2025,1,0,0,1,0,0,1,1,1,1,1,0,0,0,0,7,0,0,0,0,Projectendatabank | NWO,
+Y,NC,EU member,Poland,NCN,PL - National Science Centre Poland (NCN),portal,2011-2024,1,0,0,1,1,1,0,1,1,1,1,0,1,0,1,10,0,1,0,0,,
+Y,NC,EU member,Poland,NCN,PL - National Science Centre Poland (NCN),annual_report,2012-2021,1,1,0,1,1,1,0,1,1,0,1,1,1,1,0,11,0,1,0,0,/Poland - NCN,
+Y,PM,EU member,Portugal,FCT,PT - Foundation for Science and Technology (FCT),tabular,2018-2024,1,1,1,0,1,1,1,0,1,0,1,1,0,0,0,9,0,1,0,0,/Portugal - FCT/Phd_scholarships/BD2023-xx.pdf,
+Y,PM,EU member,Romania,UEFISCDI,RO - UEFISCDI,annual_report,2016-2024,1,1,0,0,0,1,0,1,0,0,1,1,0,1,0,7,1,1,0,0,/Romania - UEFISCDI/annual_reports,
+Y,PM,EU member,Romania,UEFISCDI,RO - UEFISCDI,report,2015-2021,1,1,0,1,1,1,0,1,0,0,1,1,0,0,0,8,0,1,0,0,/Romania - UEFISCDI/gender_report,
+Y,DP,EU member,Slovakia,APVV/SRDA,SK - Slovak Research and Development Agency (APVV),annual_report,2012-2024,1,1,0,1,0,0,1,0,1,0,1,1,0,0,0,7,0,0,0,0,/Slovakia - APVV/apvv-vs-<YEAR>-en.pdf,
+Y,DP,EU member,Slovenia,Slovenian Research Agency: ARIS,SI - Slovenian Research Agency (ARIS),annual_report,2011-2024,1,1,0,,,,,,,,1,,,,,3,,,,,,ARIS - Reports and Publications
+Y,PM,EU member,Spain,Agencia Estatal de Investigación (AEI),ES - Spanish State Research Agency (AEI),list,2008-2024,1,1,0,0,0,1,1,1,1,1,1,1,1,0,0,10,0,1,0,0,/Spain - AEI/xxx/xxx.pdf,https://www.aei.gob.es/en/awarded-grants/informes-convocatorias-ayudas
+Y,PM,EU member,Spain,Agencia Estatal de Investigación (AEI),ES - Spanish State Research Agency (AEI),annual_report,2018-2024,1,1,0,0,1,1,1,1,1,0,1,1,1,1,0,11,1,1,0,0,,
+Y,DP,EU member,Sweden,VR,SE - Swedish Research Council (VR),tabular,2008-2025,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,14,0,1,0,0,/Sweden - VR/Sweden.csv,
+Y,DP,EU member,Sweden,VR,SE - Swedish Research Council (VR),report,2019-2024,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,13,0,1,0,0,,
+Y,NC,Schengen area,Iceland,IRF,IS - Icelandic Research Fund (IRF),annual_report,2011-2023,1,1,0,0,1,1,0,0,1,0,1,1,1,1,0,9,0,1,0,0,/Iceland - IRF,Icelandic Research Fund
+Y,NC,Schengen area,Iceland,IRF,IS - Icelandic Research Fund (IRF),report,2011-2022,1,1,0,1,1,1,0,0,1,0,1,1,0,1,0,9,0,1,0,0,/Iceland - IRF/Impact Evaluation of the Icelandic Research Fund complete.pdf,
+Y,PM,Schengen area,Liechtenstein,no national funding,LI - no national funding,,,0,,,,,,,,,,,,,,,0,,,,,,"Liechtenstein research funds are primarily managed through the University of Liechtenstein and its Research Fund, which supports research projects of scientists and promotes the development of young researchers. Additionally, Liechtenstein participates in international funding schemes, including those offered by the Swiss National Science Foundation (SNSF)."
+Y,NC,Schengen area,Norway,Research Council of Norway (RCN),NO - Research Council of Norway (RCN),portal,2004-2025,1,0,0,1,0,0,0,1,1,1,1,1,1,0,0,8,0,0,0,0,N/A: https://prosjektbanken.forskningsradet.no/en,Prosjektbanken
+Y,NC,Other,UK,UKRI (BBSRC/MRC),UK - UK Research & Innovation (UKRI; BBSRC/MRC),portal,2006-2025,1,1,0,1,0,0,1,1,1,1,1,0,1,0,1,10,0,0,0,0,,
+Y,NC,Other,UK,UKRI (BBSRC/MRC),UK - UK Research & Innovation (UKRI; BBSRC/MRC),tabular,2014-2021,1,1,1,1,1,1,1,1,1,0,1,1,0,1,0,12,1,1,1,1,"/UK - Medical Research Council/.xlsx files split by career stage (e.g., UKRI-271022-Fellows-–-application-and-award-amounts-and-award-rate-by-value-2014-15-to-2020-21)",
+Y,NC,Other,UK,UKRI (BBSRC/MRC),UK - UK Research & Innovation (UKRI; BBSRC/MRC),tabular,2016-2024,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,12,1,1,1,1,/UK - UKRI/BBSRC or /MRC. Separate folders by DEI info,
+Y,GL,Other,UK,The Royal Society,UK - The Royal Society,annual_report,2015-2023,1,1,0,1,1,1,1,1,1,0,1,0,0,1,0,10,1,1,1,1,"/UK - The Royal Society/.pdf files per year, various names",
+Y,DP,Other,UK,The Wellcome Trust,UK - The Wellcome Trust,tabular,2005-2025,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,13,0,1,1,1,/UK - The Wellcome Trust/funding-overview-2022-23.xlsx & /Wellcome-grants-awarded-1-October-2005-to-1-September-2025.xlsx,"see comment in europe tab, query re: data"
+Y,DP,Other,UK,The Wellcome Trust,UK - The Wellcome Trust,annual_report,2006-2024,1,1,0,1,1,1,1,1,1,0,1,1,0,0,0,10,1,0,1,1,/UK - The Wellcome Trust/Report_Wellcome_Grant_Funding_data_2019-20.pdf & /grant-funding-data-2018-2019.pdf & /Annual_report_financial_statements/,
+Y,PM,EU-wide,EU,European Commission (EC),EU - European Commission (EC),portal,2014-2024,1,0,0,1,0,0,1,0,1,1,1,0,1,0,0,7,0,0,0,0,"N/A, list online (see here)",
+Y,DP,Schengen area,Switzerland,SNSF,CH - Swiss National Science Foundation (SNSF),tabular,1974-2025,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,13,0,1,0,0,/Switzerland - SNSF/All_grants.csv,
+Y,DP,Schengen area,Switzerland,SNSF,CH - Swiss National Science Foundation (SNSF),tabular,2001-2024,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,12,0,0,0,0,/Switzerland - SNSF/GrantSearchResults_Neuroscience.csv,
+Y,DP,Schengen area,Switzerland,SNSF,CH - Swiss National Science Foundation (SNSF),report,2023,1,1,0,1,1,1,1,1,1,0,0,1,0,1,0,10,1,0,0,0,/Switzerland - SNSF/Grant_Summary_SNSF_Starting_Grants.pdf,
+Y,DP,Schengen area,Switzerland,SNSF,CH - Swiss National Science Foundation (SNSF),tabular,2005-2024,1,1,1,1,1,1,1,1,1,0,1,0,0,0,0,10,1,0,0,0,/Switzerland - SNSF/Demographics_SNSF_2005-2023.xlsx,
+Y,PM,EU-wide,EU,European Research Council (ERC),EU - European Research Council (ERC),portal,2007-2025,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,14,1,1,0,0,"/ EU - ERC / ERC_new portal, list online (see https://dashboard.tech.ec.europa.eu/qs_digit_dashboard_mt/public/sense/app/c140622a-87e0-412e-8b29-9b5ddd857e13/sheet/61a0bd1d-cd6d-4ac8-8b55-80d8661e44c0/state/analysis)",
