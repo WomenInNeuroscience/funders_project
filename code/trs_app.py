@@ -9,32 +9,36 @@ app.title = "WIN Repo: Transparency Reporting Scale Calculator"
 
 # --- Define Criteria Labels and Categories ---
 criteria_categories = {
-    "Accessibility & FAIR": {
+    "Accessibility and FAIR principles": {
         'findable': "Findable",
         'data_downloadable': "Downloadable",
         'tabular': "Tabular format",
         'english_data': "English"
     },
-    "Gender & demographics": {
+    "Gender/DEI and demographics": {
         'gender': "Gender",
         'age_or_career_stage': "Age or career stage",
         'parental_leave': "Parental leave",
         'dei_eo_page': "DEI page"
     },
-    "Temporal": {
+    "Temporal information": {
         'year_of_award': "Year of award",
         'grant_duration': "Grant duration",
         '>=3 years data': "Longitudinal"
     },
-    "Funding transparency": {
+    "Funding": {
         'summary_funding': "Summary funding",
         'per_group_funding': "Individual funding",
         'report_all_applicants': "All applicants (not just winners)"
     },
-    "Domain-specific": {
+    "Field": {
         'neuro_specific': "Neuro-specific"
     }
 }
+
+# --- Helper to sanitize IDs ---
+def sanitize_id(s):
+    return s.lower().replace(' ', '_').replace('/', '_').replace('&','and')
 
 # --- Layout ---
 app.layout = html.Div(style={'fontFamily': 'Arial', 'padding': '30px'}, children=[
@@ -44,7 +48,7 @@ app.layout = html.Div(style={'fontFamily': 'Arial', 'padding': '30px'}, children
         html.Div([
             html.H4(category),
             dcc.Checklist(
-                id=f"{category.lower().replace(' ','_')}_checklist",
+                id=sanitize_id(category) + "_checklist",
                 options=[{'label': label, 'value': key} for key, label in criteria.items()],
                 value=[],
                 labelStyle={'display': 'block'}
@@ -62,16 +66,15 @@ app.layout = html.Div(style={'fontFamily': 'Arial', 'padding': '30px'}, children
 ])
 
 # --- Callback ---
+inputs = [Input(sanitize_id(category) + "_checklist", 'value') for category in criteria_categories.keys()]
+
 @app.callback(
     [Output('score-output', 'children'),
      Output('to-improve', 'children'),
      Output('score-visual', 'figure')],
-    [Input('accessibility_&_fair_checklist', 'value'),
-     Input('gender_&_demographics_checklist', 'value'),
-     Input('temporal_checklist', 'value'),
-     Input('funding_transparency_checklist', 'value'),
-     Input('domain-specific_checklist', 'value')]
+    inputs
 )
+
 def update_score(access, gender_demo, temporal, fund_trans, domain):
     # Calculate score
     score = len(access) + len(gender_demo) + len(temporal) + len(fund_trans) + len(domain)
@@ -109,19 +112,19 @@ def update_score(access, gender_demo, temporal, fund_trans, domain):
     # Stacked chart
     fig = go.Figure()
     fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(access)], 
-                        name='Accessibility & FAIR', marker_color='skyblue'))
+                        name='Accessibility and FAIR principles', marker_color='skyblue'))
 
     fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(gender_demo)], 
-                        name='Gender & demographics', marker_color='lightgreen'))
+                        name='Gender/DEI and demographics', marker_color='lightgreen'))
 
     fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(temporal)], 
-                        name='Temporal', marker_color='orange'))
+                        name='Temporal information', marker_color='orange'))
 
     fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(fund_trans)], 
-                        name='Funding transparency', marker_color='salmon'))
+                        name='Funding', marker_color='salmon'))
 
     fig.add_trace(go.Bar(x=["Transparency Score"], y=[len(domain)], 
-                        name='Domain-specific', marker_color='violet'))
+                        name='Field', marker_color='violet'))
 
     fig.update_layout(
         barmode='stack',
