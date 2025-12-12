@@ -2,8 +2,10 @@
 Code accompanying the paper "Girls just wanna have funds: A new Transparent Reporting Scale for evaluating grant data reporting from funding agencies". 
 
 # 1. Clone the repository
-`git clone git@github.com:WomenInNeuroscience/funders_project.git`
-`cd funders_project`
+```
+git clone git@github.com:WomenInNeuroscience/funders_project.git
+cd funders_project
+```
 
 # 2. Create a Python virtual environment
 `python -m venv venv`
