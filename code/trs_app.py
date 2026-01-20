@@ -136,7 +136,6 @@ def update_score(access, gender_demo, temporal, fund_trans, domain):
 
     return summary_text, missing_text, fig
 
-# --- Run ---
-if __name__ == '__main__':
-    app.run(debug=True)
+# --- expose server for Render ---
+server = app.server
 
