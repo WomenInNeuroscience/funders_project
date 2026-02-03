@@ -1,6 +1,8 @@
 # funders_project
 Code accompanying the paper "Girls just wanna have funds: A new Transparent Reporting Scale for evaluating grant data reporting from funding agencies". 
 
+![Figure 4](figures/Figure4.jpg)
+
 # 1. Clone the repository
 ```
 git clone git@github.com:WomenInNeuroscience/funders_project.git
@@ -20,10 +22,7 @@ cd funders_project
 # 4. Generate figures. Launch Jupyter and open the notebook:
 `jupyter notebook code/funder_analysis.ipynb`
 
-# 5. Run the interactive app to generate a score for a funder
-`python code/trs_app.py`
-
-# 6. Open in your browser
-Go to `http://127.0.0.1:8050/`
+# 5. Use the interactive app to generate a score for a funder
+Go to `https://www.winrepo.org/transparency_calculator/`
 
 
